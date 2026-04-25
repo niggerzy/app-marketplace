@@ -1,0 +1,32 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "blank_line_after_opening_tag": true,
+        "blank_lines_after_imports": 2,
+        "class_definition": {
+            "space": "single"
+        },
+        "curly_braces_position": {
+            "classes": "same_line",
+            "functions": "same_line",
+            "anonymous_functions": "same_line"
+        },
+        "indentation_type": true,
+        "linebreak_after_opening_tag": true,
+        "method_chaining_indentation": true,
+        "multiline_method_invocation_indentation": "grouped",
+        "no_extra_blank_lines": true,
+        "no_spaces_inside_parentheses": true,
+        "no_trailing_whitespace": true,
+        "spaces_around_operators": true,
+        "statement_indentation": true,
+        "trailing_comma_in_multiline": {
+            "arrays": "always",
+            "arguments": "always",
+            "parameters": "always"
+        },
+        "use_statements": {
+            "sort": "length"
+        }
+    }
+}
